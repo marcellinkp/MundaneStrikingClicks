@@ -1,0 +1,36 @@
+cachorro Php
+
+
+public $raca;
+    public $pocket;
+
+    public function __construct($raca){
+      $this->raca = $raca;
+    
+      echo("Cachorro ".$this->raca." nasceu");
+    }
+
+    public function __construct($porte){
+      $this->porte = ("medio");
+      echo("O Cachorro tem ">.$this->porte.)
+    }
+
+    public function __destruct(){
+      echo("simba infelizmente, da raça: ".$this->raca." Morreu!");
+    }
+    
+
+    public function latir(){
+        echo("AUAU \n");
+    }
+    public function comer(){
+        echo("Comendo \n");
+
+    }
+}
+
+$pitbull = new cachorro("simba");
+$pitbull->comer();
+
+
+?>
